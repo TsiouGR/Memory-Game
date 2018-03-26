@@ -1,34 +1,34 @@
-const cardsPawPatrol = [{
+const cardsGame = [{
         card: 1,
-        img: "img/chase.jpg"
+        img: "http://icons.iconarchive.com/icons/ph03nyx/super-mario/128/Paper-Mario-icon.png"
     },
     {
         card: 2,
-        img: "img/everest.jpg"
+        img: "http://icons.iconarchive.com/icons/ph03nyx/super-mario/128/Paper-Bowser-icon.png"
     },
     {
         card: 3,
-        img: "img/marshall.jpg"
+        img: "http://icons.iconarchive.com/icons/ph03nyx/super-mario/128/Mushroom-Super-icon.png"
     },
     {
         card: 4,
-        img: "img/rocky.jpg"
+        img: "http://icons.iconarchive.com/icons/ph03nyx/super-mario/128/Mushroom-1UP-icon.png"
     },
     {
         card: 5,
-        img: "img/rubble.jpg"
+        img: "http://icons.iconarchive.com/icons/ph03nyx/super-mario/128/Question-Block-icon.png"
     },
     {
         card: 6,
-        img: "img/ryder.jpg"
+        img: "http://icons.iconarchive.com/icons/ph03nyx/super-mario/128/Star-icon.png"
     },
     {
         card: 7,
-        img: "img/skye.jpg"
+        img: "http://icons.iconarchive.com/icons/ph03nyx/super-mario/128/Boo-icon.png"
     },
     {
         card: 8,
-        img: "img/zuma.jpg"
+        img: "http://icons.iconarchive.com/icons/ph03nyx/super-mario/128/Goomba-icon.png"
     }
 ];
 
@@ -105,8 +105,8 @@ function shuffle(array) {
 
 //shuffling of the cards
 var shuffleCards = () => {
-    cardsTop = cardsPawPatrol.slice(0); //shuffle the first iteration of the cards
-    cardsBottom = cardsPawPatrol.slice(0); //shuffle the second iteration of the cards
+    cardsTop = cardsGame.slice(0); //shuffle the first iteration of the cards
+    cardsBottom = cardsGame.slice(0); //shuffle the second iteration of the cards
     cards = cardsTop.concat(cardsBottom); // join the two arrays
     shuffle(cards); // shuffle one last time the new array
 };
@@ -271,7 +271,7 @@ var restartGame = () => {
     }, 500);
 }
 
-//function to run when the game is rerstarted.
+//function to run when the game is restarted.
 restart.addEventListener('click', e => {
     restartGame(e);
 });
