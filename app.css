@@ -31,7 +31,7 @@ html {
      color: white;
      font-weight: 600;
 }
-/* * Styles for the deck of cards */
+/* * Styles for the deck of cards https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
  .deck {
      width: 680px;
      min-height: 680px;
@@ -39,11 +39,16 @@ html {
      padding: 32px;
      border-radius: 10px;
      box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+     display: -webkit-box;
+     display: -moz-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
      display: flex;
      flex-wrap: wrap;
-     justify-content: space-between;
+     -webkit-flex-flow: row wrap;
+     justify-content: space-around;
      align-items: center;
-     margin: 0 0 3em;
+     margin: auto;
 }
  .deck .card {
      height: 125px;
@@ -71,7 +76,7 @@ html {
 }
  .deck .card.open {
      transform: rotateY(180deg);
-     background: #02b3e4;
+     background: grey;
      cursor: default;
 }
  .deck .card.show {
@@ -82,7 +87,7 @@ html {
 }
  .deck .card.match {
      cursor: default;
-     background: #02ccba;
+     background: white;
      font-size: 33px;
 }
  .deck .card>img {
@@ -122,9 +127,8 @@ html {
      padding: 5px 10px;
      border-radius: 5px;
      text-align: center;
-     background: #4399FF;
+     background: black;
 }
-/* Modal styles */
 /* The Modal (background) */
  .modal {
      display: none;
@@ -154,13 +158,14 @@ html {
 }
 /* Modal Content/Box */
  .modal-content {
-     background-color: #fefefe;
+     background-color: black;
+     color: white;
      margin: 15% auto;
     /* 15% from the top and centered */
      padding: 20px;
      border: 1px solid #888;
      width: 50%;
-    /* Could be more or less, depending on screen size */
+    /* Depending on screen size */
 }
  .modal__text {
      text-align: center;
@@ -173,7 +178,7 @@ html {
      font-weight: bold;
 }
  .close:hover, .close:focus {
-     color: black;
+     color: white;
      text-decoration: none;
      cursor: pointer;
 }
@@ -215,4 +220,23 @@ html {
 }
  #score li {
      display: inline;
+}
+/*Media queries*/
+ @media (min-width:320px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+}
+ @media (min-width:481px) {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+ @media (min-width:641px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+ @media (min-width:961px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+ @media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+}
+ @media (min-width:1281px) {
+    /* hi-res laptops and desktops */
 }
