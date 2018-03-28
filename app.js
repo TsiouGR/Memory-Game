@@ -34,7 +34,7 @@ const cardsGame = [{
 
 let checkCards = [];
 let counter = 1;
-let moveCounter = 1; // define a counter to count the number ov moves.
+let moveCounter = 1; // define a counter to count the number of moves
 let seconds = 0; // define the seconds variable
 const deck = document.querySelector('.deck'); // the unordered list that contains all the cards
 const tiles = document.querySelectorAll('.card'); // selects all the list items and adds them to the tiles variable
@@ -52,7 +52,7 @@ let cards, cardsTop, cardsBottom, stopTimer;
 let cardOne, cardTwo;
 
 
-//function to count the moves.
+//function to count the moves
 var moves = deck.addEventListener('click', () => {
     movesElem.forEach(e => {
         e.innerHTML = moveCounter;
@@ -72,12 +72,12 @@ var startTimer = () => {
 // function to remove the stars from the score
 var starCount = () => {
     //console.log('moveCounter = ' + moveCounter);
-    if (moveCounter === 15) { // when the move counter reaches 15 remove the star
+    if (moveCounter === 15) { // when the move counter reaches 15 remove a star
         document.querySelector('.fa-star:last-of-type').classList.remove('fa-star');
-    } else if (moveCounter === 25) { // when the move counter reaches 25 remove the star
+    } else if (moveCounter === 25) { // when the move counter reaches 25 remove a star
         document.querySelector('.fa-star:last-of-type').classList.remove('fa-star');
     }
-    // user always gets one star!
+    // player always gets one star
 }
 
 // function to set the score of stars
@@ -88,7 +88,7 @@ var score = () => {
     // console.log(starList.innerHTML)
 }
 
-// Shuffle function from http://stackoverflow.com/a/2450976
+// Shuffle function from https://www.w3resource.com/javascript-exercises/javascript-array-exercise-17.php
 function shuffle(array) {
     var currentIndex = array.length,
         temporaryValue, randomIndex;
