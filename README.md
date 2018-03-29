@@ -14,7 +14,7 @@ You can download or clone the repo and run the `index.html` file on your local s
 
 Alternatively you can [Play Here](https://rodcunha.github.io/memory-game/)
 
-You are given 8 pairs of cards (currently themed Paw Patrol).
+You are given 8 pairs of cards (Mario themed).
 
 You will need to pair the cards that are equal by revealing two cards at the time. If the cards match, they will stay turned and you can proceed to the next cards. If the cards don't match they will be folded back again and you will have to try to remember the pictures behind them to match them with subsequent cards, hence the name memory game.
 
@@ -30,6 +30,6 @@ This was based on the started project files given by Udacity and built using the
 
   * HTML, CSS & JavaScript;
   * Star graphics by [Font Awesome](https://fontawesome.com/);
-  * Paw Patrol Graphics from [Paw Patrol Wikia] (http://paw-patrol.wikia.com);
-  * Trophy image from: [Lao Blogger](http://laoblogger.com);
+  * Super Mario icon set from [iconarchive] (http://www.iconarchive.com/show/super-mario-icons-by-ph03nyx.1.html);
+  * Trophy image from: [vignette.wikia](vignette.wikia.nocookie.net);
   * Typeface Montserrat by [Google Fonts](https://fonts.google.com);
