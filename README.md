@@ -12,7 +12,7 @@
 
 You can download or clone the repo and run the `index.html` file on your local system.
 
-Alternatively you can **[Play Here!](https://rodcunha.github.io/memory-game/)**
+Alternatively you can **[Play Here!](https://TsiouGR.github.io/memory-game/)**
 
 You are given 8 pairs of cards (Mario themed).
 
