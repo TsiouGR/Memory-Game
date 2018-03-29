@@ -16,8 +16,9 @@ Alternatively you can **[Play Here!](https://rodcunha.github.io/memory-game/)**
 
 You are given 8 pairs of cards (Mario themed).
 
-You will need to pair the cards that are the same by revealing two cards at the time. If the cards match, they will stay turned and you can proceed to the next cards. If the cards don't match they will be folded back again and you will have to try to remember the pictures behind them to match them with subsequent cards, hence the name memory game.
-You can reset your game anytime and start again. Good luck and have fun!
+You will need to pair the cards that are the same by revealing two cards at the time. If the cards match, they will stay turned and you can proceed to the next cards. If the cards don't match they will be folded back again and you will have to try to remember the pictures behind them to match them with subsequent cards.
+You can reset your game anytime and start again.
+Good luck and have fun!
 
 ### Score
 
