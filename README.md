@@ -30,6 +30,6 @@ This was based on the started project files given by Udacity and built using the
 
   * HTML, CSS & JavaScript;
   * Star graphics by [Font Awesome](https://fontawesome.com/);
-  * Super Mario icon set from [iconarchive] (http://www.iconarchive.com/show/super-mario-icons-by-ph03nyx.1.html);
+  * Super Mario icon set from [iconarchive](http://www.iconarchive.com/show/super-mario-icons-by-ph03nyx.1.html);
   * Trophy image from: [vignette.wikia](vignette.wikia.nocookie.net);
   * Typeface Montserrat by [Google Fonts](https://fonts.google.com);
