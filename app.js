@@ -257,7 +257,7 @@ var restartGame = () => {
 
     resetTimer();
     moveCounter = 1;
-    movesElem[0].innerHTML = moveCounter;
+    movesElem[0].innerHTML = 0;
     stars.forEach((e) => {
         e.classList += ' fa-star';
     });
