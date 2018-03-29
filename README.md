@@ -12,7 +12,7 @@
 
 You can download or clone the repo and run the `index.html` file on your local system.
 
-Alternatively you can **[Play Here!](https://tsiougr.github.io/Memory-Game/)**
+Additionally you can just **[Play Here!](https://tsiougr.github.io/Memory-Game/)**
 
 You are given 8 pairs of cards (Mario themed).
 
