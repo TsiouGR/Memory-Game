@@ -26,7 +26,7 @@ Every time you reveal 2 cards, 1 move is counted. Your current number of moves i
 
 Together with the number of moves your performance is graded with stars. You start with 3 stars, if you finish the game in under 15 moves, you will be awarded 3 stars, if you finish the game between 15 and 30 moves you will be awarded 2 stars and if you take more than 25 moves to win the game you will be awarded 1 star.
 
-## <a name="tools"></a>What have used to build this
+## <a name="tools"></a>What tools were used to build this game
 
 This was based on the started project files given by Udacity and built using the following:
 
